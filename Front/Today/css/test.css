@@ -1,0 +1,26 @@
+#topMenu {            
+    height: 30px; 
+    width: 850px; 
+}
+#topMenu ul li {                      
+    list-style: none;          
+    color: black;               
+    background-color: #FFFDF5;  
+    float: left;                
+    line-height: 30px;         
+    vertical-align: middle;     
+    text-align: center;         
+}
+#topMenu.menuLink {                              
+    text-decoration:none;                      
+    color: black;                              
+    display: block;                            
+    width: 150px;                              
+    font-size: 12px;                           
+    font-weight: bold;                         
+    font-family: "맑은 고딕"; 
+}
+#topMenu .menuLink:hover {            
+    color: red;                   /*글씨 색을 붉은색으로 설정*/
+    background-color: #4d4d4d;    /*배경색을 조금 더 밝은 회색으로 설정*/
+}

@@ -1,0 +1,70 @@
+* { padding: 0; margin: 0;}
+.container{
+    width: 1440px;
+    height: 1804px;
+	margin:0 auto;
+    background-color: #FFFDF5;
+    font-family: inter;
+}
+ul { list-style-type: none; }
+a { display: inline; text-decoration: none; }
+header{width: 100%; height: 118px;}
+#container_1{width: 100%; height: 1681px;}
+footer{width: 100%; height: 203px;}
+
+#top{display : flex; flex-direction: row; justify-content: space-between; width: 100%; height: 49px;   background-color: black; color: white;}
+#top_menu_1{padding: 14px 0 15px 28px; display: inline; }
+#top_menu{padding: 14px 28px 15px 0}
+#top_menu li{ display: inline; padding-left: 10px;}
+
+#menu_bar{ width: 100%; height: 70px; background-color: #FFFDF5;}
+#menu_bar ul{display : flex;flex-direction: row;justify-content: space-between;}
+#menu_bar li { font-size:28px; display:inline; padding: 20px;}
+#menu_bar li a{color:black;}
+#menu_bar li a:visited{ border-bottom: 2px solid black;}
+
+#calender_1{
+    color: white;
+    width: 324px;
+    height: 72px;
+    font-size: 43px;
+    border-radius: 20px;
+    border : 4px solid #C98724;
+    background: #FFF1A5;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 44px; margin-left: 39px;
+    letter-spacing: 5%;
+    line-height: 52px, 100%;
+    font-weight: 400;
+    -webkit-text-stroke: 2px rgba(171, 103, 0, 1);
+    
+}
+
+#menu1{position: relative; margin-top: 60px;}
+.border{
+font-size: 35px;
+text-align: center;
+border: 3px solid rgba(201, 135, 36, 1);
+border-radius: 20px;
+background: rgba(255, 249, 217, 1);
+width:118px;
+height:42px;
+line-height: 42.36px;  
+letter-spacing: 30%;
+font-weight: 700;
+-webkit-text-stroke: 2px rgba(171, 103, 0, 1);
+}
+.content{position: relative; margin-top: 97px;}
+
+.border{position: relative; margin: 0 891px 0 394px ;}
+
+.gift{
+    border: 3px solid orange;
+    border-radius: 70%;
+    width: 250px;
+    height: 250px;
+    margin: 0 1127px 0 71px;
+}
+
